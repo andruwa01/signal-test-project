@@ -1,5 +1,8 @@
 Tasks for project:
 - [x] add git support.
+- [] task details: 
+	- [] form of signal ?
+	- []
 - [] repeat socket programming on c.
 - [] write server-app.
 - [] write client-app.
