@@ -6,7 +6,7 @@
 #include <QTcpServer>
 
 QT_BEGIN_NAMESPACE
-//class QTcpServer;
+class QTcpServer;
 QT_END_NAMESPACE
 
 class Server : public QTcpServer
@@ -19,7 +19,7 @@ private slots:
 private:
     void initServer();
     QTcpServer *tcpServer = nullptr;
-    QVector<double> generateSignal();
+    QVector<QPair<float, float>> generateSignal();
     QString generatedSignal;
 };
 
