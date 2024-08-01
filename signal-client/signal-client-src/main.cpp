@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-    return a.exec();
+    QCoreApplication app_client(argc, argv);
+    return app_client.exec();
 }
