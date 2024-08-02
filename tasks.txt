@@ -1,10 +1,11 @@
 Tasks for project:
 - [x] add git support.
-- [ ] task details: 
+- [x] task details: 
 	- [x] form of signal ?
-	- [ ]
-- [ ] repeat socket programming on c.
-- [ ] write server-app.
+- [x] repeat socket programming on c.
+- [x] write server-app.
 - [ ] write client-app.
+	- [ ] finish function.
+	- [ ] think about gui or not gui.
 - [ ] add ability of building and run apps without qtcreator (just git clone + build + run).
 	- [ ] repeat usage of qmake/make files.
